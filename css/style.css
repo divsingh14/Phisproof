@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+#main{
+	background-image: url("../image/back.png");
+	width: 100%;
+	
+		/*background: rgba(0,0,0 , 0.1);*/
+}
+
+#signUp_box hr,
+#login_box hr{
+	height:1px;
+	border:none;
+	background-color:#333;
+}
+#element,
+#write{
+	color: white !important;
+	font-size: 40px;
+	font-weight: bold;
+}
+.row .left{
+	margin-top: 18%;
+}
+.footerRef
+.row .right{
+	margin-top: 10%;
+}
+
+#login_box{
+	padding: 40px;
+	background: white;
+	color: black;
+	border: 2px solid #3292a6;
+	border-radius: 10px;
+	box-shadow: -5px 0px 108px 21px rgba(0,0,0,0.9);
+	transition: easy 3s;
+}
+#signUp_box{
+	padding: 40px;
+	background: white;
+	color: black;
+	border: 2px solid #3292a6;
+	border-radius: 10px;
+	box-shadow: -5px 0px 108px 21px rgba(0,0,0,0.9);
+	transition: easy 3s;
+}
+
+#login_box .avatar{
+	width: 22%;
+}
+#signUp_box .button,
+#login_box .button{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 5px;
+	border: 1px;
+	border-radius: 20px;
+	width: 150px;
+	height: 40px;
+	background: #3F51B5;
+	color: white;
+}
+#signUp_box .field,
+#login_box .field{
+	border-radius: 20px;
+	padding: 5px,10px,5px,10px;
+	text-align: left;
+}
+#signUp_box .txt_small,
+#login_box .txt_small{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#login_box .google{
+	background: #D93C30;
+	color: white;
+}
+
+#login_box .facebook{
+	background: #4267B2;
+	color: white;
+}
+.hide{
+	display: none;
+}
+
+.switchButton{
+	background: transparent;
+	border: none;
+	color: #337AB7;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.cusBg{
+	background-color: #3F51B5;
+}
+
+nav{
+	box-shadow: 0 10px 8px -5px black;
+}
+#landingPage > video{
+	max-width: 100%;
+	height: auto;
+}
+#content-overlay{
+	position: absolute;
+	align-items: center;
+	top: 0;
+	margin-top: 200px;
+	color: white;
+	z-index: 1;
+}
+#landingText button{
+	background: transparent;
+	color: white;
+	border: 1px solid white;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media (max-width:800px){
+	#frontText{
+		display: none;
+	}
+	#textland{
+		display: none;
+	}
+}
+#content{
+	margin-top: 40px;
+}
+#content .container{
+	box-shadow: 4px 4px 7px 9px #ccc; 
+	padding-top: 20px;	
+}
+#content hr{
+	height: 2px;
+	border:none;
+	background: #ccc;
+}
+
+#content img{
+	box-shadow: 4px 4px 7px 9px #ccc; 
+	width: 250px;
+	height:250px;
+}
+#landingref{
+	text-decoration: none;
+	color: white ;
+}
+#content .col{
+	border: 1px solid #ccc;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+#content h4{
+	font-weight: bold;
+}
+
+.footer{
+	background-color: #3F51B5;
+	color: white;
+   	width: 100%;
+	padding: 20px;
+}
+
+.footer img{
+	width: 250px;
+	height: 280px;
+}
+.footer .list-group-item{
+	border: none;
+	
+	background: transparent;
+	font-weight: bold;
+}
+.footer .fab{
+	font-size: 30px;
+	margin-right: 10px;
+}
+.footer .fcol
+{
+	border-left: 1px solid white;
+}
+#add > h5,
+#add > p{
+	text-align: left;
+}
+
+#foothr{
+	height: 1px;
+	border: none;
+	background: white;
+}
+
+#donate{
+	margin-top: 80px;
+}
+#donate .container{
+	box-shadow: 6px 6px 6px 5px #ccc; 
+	padding: 20px;
+}
+
+#payment .card{
+	width: 80%;
+	/*margin: auto;*/
+}
+#payment .space{
+	margin-left: 20px;
+}
+#payment button{
+	width: 250px;
+	height: 45px;
+	border-radius: 20px;
+}
+#payment img{
+	width: 300px;
+	height: 300px;
+}
+
+#contact{
+	margin-top: 80px;
+}
+#contact .container{
+	padding: 20px;
+}
+#contact .row{
+	margin-top: 30px;
+}
+
+#check .container{
+	margin-top: 80px;
+	padding: 20px;
+}
+#check img{
+	width: 200px;
+	height: 200px;
+}
+#check button{
+	background: #3F51B5;
+	color: white;
+	font-weight: bold;
+	width: 250px;
+	height: 45px;
+	border-radius: 20px;
+}
+.swal-button{
+	padding: 7px 19px;
+	border-radius: 2px;
+    background-color: #3F51B5;
+    font-size: 12px;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+#feedback{
+	margin-top: 80px;
+}
+#feedback .container{
+	padding: 20px;
+}
+
+#feedback button{
+	width: 250px;
+	height: 45px;
+	background-color: #3F51B5;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+}
